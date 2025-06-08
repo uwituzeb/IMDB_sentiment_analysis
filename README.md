@@ -53,8 +53,7 @@ The dataset contains 50,000 labeled movie reviews and has a balanced sentiment d
 | Model # | Embedding | Accuracy | Precision | Recall | F1-Score |
 |---------|-----------|----------|-----------|--------|----------|
 | 1       | TF-IDF    | 0.89     | 0.89      | 0.89   | 0.89     |
-| 2
-(After Tuning)      | TF-IDF    | 0.89     | 0.89      | 0.89   | 0.89     |
+| 2 (After Tuning)      | TF-IDF    | 0.89     | 0.89      | 0.89   | 0.89     |
 
 
 ## Contributions
