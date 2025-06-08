@@ -55,6 +55,29 @@ The dataset contains 50,000 labeled movie reviews and has a balanced sentiment d
 | 1       | TF-IDF    | 0.89     | 0.89      | 0.89   | 0.89     |
 | 2 (After Tuning)      | TF-IDF    | 0.89     | 0.89      | 0.89   | 0.89     |
 
+## Setup and Installation
+
+1. Clone repository
+
+```
+git clone https://github.com/uwituzeb/IMDB_sentiment_analysis.git
+cd IMDB_sentiment_analysis
+```
+
+2. Create Virtual environment
+
+```
+python -m venv venv
+source venv/bin/activate
+```
+
+3. Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+4. Run notebook and start training
 
 ## Contributions
 
