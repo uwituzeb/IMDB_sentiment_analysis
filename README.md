@@ -53,6 +53,8 @@ The dataset contains 50,000 labeled movie reviews and has a balanced sentiment d
 | Model # | Embedding | Accuracy | Precision | Recall | F1-Score |
 |---------|-----------|----------|-----------|--------|----------|
 | 1       | TF-IDF    | 0.89     | 0.89      | 0.89   | 0.89     |
+| 2
+(After Tuning)      | TF-IDF    | 0.89     | 0.89      | 0.89   | 0.89     |
 
 
 ## Contributions
@@ -63,6 +65,3 @@ The dataset contains 50,000 labeled movie reviews and has a balanced sentiment d
 | **Jean Chrisostome**| Data preprocessing, visualizations, logistic regression modeling                  |
 | **Sifa Mwachoni**   | LSTM architecture design, model training and validation, report writing           |
 | **Christian Mutabazi** | Hyperparameter tuning, experiment tracking, model optimization               |
-
-
-
