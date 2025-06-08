@@ -36,6 +36,33 @@ The dataset contains 50,000 labeled movie reviews and has a balanced sentiment d
 
 ## Experimentation and Results
 
+## Experiment Table 1: LSTM (Deep Learning Model) - Hyperparameter Tuning
+
+| Model # | Vocabulary Size | Sequence Length | Embedding Dim | LSTM Units | Dropout Rate | Batch Size | Learning Rate | Accuracy | Precision | Recall | F1-Score |
+|---------|------------------|------------------|----------------|-------------|----------------|-------------|----------------|----------|-----------|--------|----------|
+| 1       | 5,000            | 200              | 64             | 64, 32      | 0.2            | 64          | 0.0001         | 0.89     | 0.89      | 0.89   | 0.89     |
+| 2       | 10,000           | 200              | 64             | 64, 32      | 0.2            | 64          | 0.0001         | 0.54     | 0.57      | 0.54   | 0.48     |
+| 3       | 5,000            | 200              | 64             | 32, 16      | 0.4            | 64          | 0.0001         | 0.88     | 0.88      | 0.88   | 0.88     |
+| 4       | 10,000           | 150              | 100            | 32, 16      | 0.4            | 64          | 0.0001         | 0.87     | 0.87      | 0.87   | 0.87     |
+| 5       | 7,500            | 150              | 100            | 32, 16      | 0.4            | 64          | 0.0001         | 0.85     | 0.85      | 0.85   | 0.85     |
+
+---
+
+## Experiment Table 2: Logistic Regression Model (Traditional ML Model)
+
+| Model # | Embedding | Accuracy | Precision | Recall | F1-Score |
+|---------|-----------|----------|-----------|--------|----------|
+| 1       | TF-IDF    | 0.89     | 0.89      | 0.89   | 0.89     |
+
+
 ## Contributions
+
+| Team Member         | Responsibilities                                                                 |
+|---------------------|-----------------------------------------------------------------------------------|
+| **Bernice Uwituze** | Data preprocessing, dataset research and analysis, visualizations, README writing |
+| **Jean Chrisostome**| Data preprocessing, visualizations, logistic regression modeling                  |
+| **Sifa Mwachoni**   | LSTM architecture design, model training and validation, report writing           |
+| **Christian Mutabazi** | Hyperparameter tuning, experiment tracking, model optimization               |
+
 
 
